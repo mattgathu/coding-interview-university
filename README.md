@@ -4,14 +4,9 @@
 
 - [What is it?](#what-is-it)
 - [Why use it?](#why-use-it)
-- [How to use it](#how-to-use-it)
-- [Don't feel you aren't smart enough](#dont-feel-you-arent-smart-enough)
-- [About Video Resources](#about-video-resources)
 - [Interview Process & General Interview Prep](#interview-process--general-interview-prep)
-- [Pick One Language for the Interview](#pick-one-language-for-the-interview)
 - [Book List](#book-list)
 - [Before you Get Started](#before-you-get-started)
-- [What you Won't See Covered](#what-you-wont-see-covered)
 - [Prerequisite Knowledge](#prerequisite-knowledge)
 - [The Daily Plan](#the-daily-plan)
 - [Algorithmic complexity / Big-O / Asymptotic analysis](#algorithmic-complexity--big-o--asymptotic-analysis)
@@ -130,48 +125,6 @@ thousands of associative arrays, but I've never created data structures from scr
 
 It's a long plan. It may take you months. If you are familiar with a lot of this already it will take you a lot less time.
 
-## How to use it
-
-Everything below is an outline, and you should tackle the items in order from top to bottom.
-
-I'm using Github's special markdown flavor, including tasks lists to check progress.
-
-**Create a new branch so you can check items like this, just put an x in the brackets: [x]**
-
-
-    Fork a branch and follow the commands below
-
-`git checkout -b progress`
-
-`git remote add jwasham https://github.com/jwasham/coding-interview-university`
-
-`git fetch --all`
-
-    Mark all boxes with X after you completed your changes
-
-`git add . `
-
-`git commit -m "Marked x" `
-
-`git rebase jwasham/master `
-
-`git push --force `
-
-[More about Github-flavored markdown](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
-
-## Don't feel you aren't smart enough
-- Successful software engineers are smart, but many have an insecurity that they aren't smart enough.
-- [The myth of the Genius Programmer](https://www.youtube.com/watch?v=0SARbwvhupQ)
-- [It's Dangerous to Go Alone: Battling the Invisible Monsters in Tech](https://www.youtube.com/watch?v=1i8ylq4j_EY)
-
-## About Video Resources
-
-Some videos are available only by enrolling in a Coursera, EdX, or Lynda.com class. These are called MOOCs.
-Sometimes the classes are not in session so you have to wait a couple of months, so you have no access. Lynda.com courses are not free.
-
-    I'd appreciate your help to add free and always-available public sources, such as YouTube videos to accompany the online course videos.
-    I like using university lectures.
-
 
 ## Interview Process & General Interview Prep
 
@@ -190,29 +143,6 @@ Sometimes the classes are not in session so you have to wait a couple of months,
         - Learn how to make yourself ready for software engineer interviews from a former Google interviewer.
     - [ ] [Python for Data Structures, Algorithms, and Interviews! (paid course)](https://www.udemy.com/python-for-data-structures-algorithms-and-interviews/): 
         - A Python centric interview prep course which covers data structures, algorithms, mock interviews and much more. 
-
-## Pick One Language for the Interview
-
-You can use a language you are comfortable in to do the coding part of the interview, but for large companies, these are solid choices:
-
-- C++
-- Java
-- Python
-
-You could also use these, but read around first. There may be caveats:
-
-- JavaScript
-- Ruby
-
-You need to be very comfortable in the language and be knowledgeable.
-
-Read more about choices:
-- http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/
-- http://blog.codingforinterviews.com/best-programming-language-jobs/
-
-[See language resources here](programming-language-resources.md)
-
-You'll see some C, C++, and Python learning included below, because I'm learning. There are a few books involved, see the bottom.
 
 ## Book List
 
@@ -386,43 +316,6 @@ Take a break from programming problems for a half hour and go through your flash
 
 There are a lot of distractions that can take up valuable time. Focus and concentration are hard.
 
-## What you won't see covered
-
-These are prevalent technologies but not part of this study plan:
-
-- SQL
-- Javascript
-- HTML, CSS, and other front-end technologies
-
-## The Daily Plan
-
-Some subjects take one day, and some will take multiple days. Some are just learning with nothing to implement.
-
-Each day I take one subject from the list below, watch videos about that subject, and write an implementation in:
-- C - using structs and functions that take a struct * and something else as args.
-- C++ - without using built-in types
-- C++ - using built-in types, like STL's std::list for a linked list
-- Python - using built-in types (to keep practicing Python)
-- and write tests to ensure I'm doing it right, sometimes just using simple assert() statements
-- You may do Java or something else, this is just my thing.
-
-You don't need all these. You need only [one language for the interview](#pick-one-language-for-the-interview).
-
-Why code in all of these?
-- Practice, practice, practice, until I'm sick of it, and can do it with no problem (some have many edge cases and bookkeeping details to remember)
-- Work within the raw constraints (allocating/freeing memory without help of garbage collection (except Python))
-- Make use of built-in types so I have experience using the built-in tools for real-world use (not going to write my own linked list implementation in production)
-
-I may not have time to do all of these for every subject, but I'll try.
-
-You can see my code here:
- - [C](https://github.com/jwasham/practice-c)
- - [C++](https://github.com/jwasham/practice-cpp)
- - [Python](https://github.com/jwasham/practice-python)
-
-You don't need to memorize the guts of every algorithm.
-
-Write code on a whiteboard or paper, not a computer. Test with some sample inputs. Then test it out on a computer.
 
 ## Prerequisite Knowledge
 
