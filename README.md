@@ -1411,8 +1411,8 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
 - ### Compression
     - make sure to watch information theory videos first
     - [ ] Computerphile (videos):
-        - [ ] [Compression](https://www.youtube.com/watch?v=Lto-ajuqW3w)
-        - [ ] [Entropy in Compression](https://www.youtube.com/watch?v=M5c_RFKVkko)
+        - [x] [Compression](https://www.youtube.com/watch?v=Lto-ajuqW3w)
+        - [x] [Entropy in Compression](https://www.youtube.com/watch?v=M5c_RFKVkko)
         - [ ] [Upside Down Trees (Huffman Trees)](https://www.youtube.com/watch?v=umTbivyJoiI)
         - [ ] [EXTRA BITS/TRITS - Huffman Trees](https://www.youtube.com/watch?v=DV8efuB3h2g)
         - [ ] [Elegant Compression in Text (The LZ 77 Method)](https://www.youtube.com/watch?v=goOa3DGezUA)
